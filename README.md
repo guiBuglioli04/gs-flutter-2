@@ -22,10 +22,10 @@
 
 ##  Identificação dos Desenvolvedores
 
-| Nome Completo | RM | Responsabilidades Principais |
-|---|---|---|
-| **Guilherme Buglioli** | **555273** | Arquitetura Flutter, Modelagem de Dados, Motor de Risco Clínico e UI/UX |
-| **Lucas Pasqualini** | **555169** | Consumo de WebService REST (HTTP), Persistência Local (SharedPreferences) e Validação de Casos de Uso |
+| Nome Completo | RM |
+|---|---|
+| **Guilherme Buglioli** | **555273**|
+| **Lucas Pasqualini** | **555169** |
 
 ---
 
