@@ -5,8 +5,22 @@
 > **Instituição:** FIAP  
 
 ---
+<img width="1361" height="632" alt="image" src="https://github.com/user-attachments/assets/279adcdf-a466-4744-8e87-fda061ebf241" />
+<img width="1365" height="643" alt="image" src="https://github.com/user-attachments/assets/0b9e070d-3985-4cf8-8cb1-932a02041f79" />
+<img width="1365" height="650" alt="image" src="https://github.com/user-attachments/assets/de50b94e-b02c-4e3c-a3d5-f12799469e0f" />
+<img width="1365" height="643" alt="image" src="https://github.com/user-attachments/assets/f68ec14c-ae3a-4b9c-873b-5ddcc51ef9a6" />
+<img width="1364" height="635" alt="image" src="https://github.com/user-attachments/assets/b28b6cd8-54e4-4288-8d95-b653df1ab6b2" />
+<img width="1365" height="633" alt="image" src="https://github.com/user-attachments/assets/9a972b7b-c1f2-4e0e-92c2-e10db37be494" />
+<img width="1365" height="638" alt="image" src="https://github.com/user-attachments/assets/2ef618c0-1dc5-4b65-a418-4bf75e0bdf1c" />
+<img width="1365" height="635" alt="image" src="https://github.com/user-attachments/assets/a3264ff6-e5db-4292-a8de-a0d0e9d740d0" />
 
-## 👥 Identificação dos Desenvolvedores
+
+
+
+
+
+
+##  Identificação dos Desenvolvedores
 
 | Nome Completo | RM | Responsabilidades Principais |
 |---|---|---|
@@ -34,7 +48,7 @@ O **SaúdePerto** é um aplicativo mobile desenvolvido em **Flutter/Dart** no co
 
 ---
 
-## 📱 Requisitos Obrigatórios Atendidos (Rubrica de Avaliação)
+##  Requisitos Obrigatórios Atendidos (Rubrica de Avaliação)
 
 ### 1. Tela de Splash (1,0 ponto)
 * Logo oficial do aplicativo em alta definição via `Image.asset`.
@@ -106,7 +120,7 @@ O aplicativo contempla mais de 5 interações funcionais distintas:
 
 ---
 
-## 🏗️ Estrutura de Diretórios do Projeto
+##  Estrutura de Diretórios do Projeto
 
 ```text
 gs_flutter_2/
@@ -154,7 +168,7 @@ gs_flutter_2/
 
 ---
 
-## 🔄 Fluxo de Navegação entre Telas
+##  Fluxo de Navegação entre Telas
 
 ```mermaid
 flowchart TD
@@ -183,7 +197,7 @@ flowchart TD
 
 ---
 
-## 🌐 Consumo de WebService REST (Requisito 4)
+##  Consumo de WebService REST (Requisito 4)
 
 * **Biblioteca:** `http: ^1.2.0`
 * **Endpoint Base:** `https://jsonplaceholder.typicode.com/users`
@@ -194,64 +208,3 @@ flowchart TD
   4. `WebServiceState.error`: Feedback amigável para falha de rede com botão **"Tentar Novamente"**.
 * **Modo de Demonstração:** Inclui switch no cabeçalho para simulação voluntária de erro, facilitando a verificação dos critérios pela banca.
 
----
-
-## 🧪 Execução de Testes Automatizados
-
-Para executar os testes de validação do motor clínico e da interface:
-
-```bash
-flutter test
-```
-
-Resultado obtido:
-```text
-00:00 +0: Motor de Classificação de Risco Clínico (RF03) Classifica caso crítico como URGENTE
-00:00 +1: Motor de Classificação de Risco Clínico (RF03) Classifica caso com pressão limítrofe e febre como MODERADO
-00:00 +2: Motor de Classificação de Risco Clínico (RF03) Classifica caso com sinais normais como BAIXO
-00:00 +3: Serviço de Triagens e Pacientes Comunitários (RF01 e RF02) Consulta e valida paciente ativo por CPF (RF01)
-00:00 +4: Serviço de Triagens e Pacientes Comunitários (RF01 e RF02) Criação de nova triagem gera protocolo único e adiciona à fila
-00:00 +5: Smoke Test do Aplicativo SaúdePerto Inicializa o aplicativo SaúdePerto e renderiza o Splash
-00:00 +6: All tests passed!
-```
-
-Para verificar a análise estática e padronização do código:
-
-```bash
-flutter analyze
-```
-
-Resultado obtido:
-```text
-Analyzing gs_flutter_2...
-No issues found!
-```
-
----
-
-## 🚀 Como Executar o Projeto
-
-1. Certifique-se de possuir o Flutter instalado (versão 3.x ou superior com Dart 3.x):
-   ```bash
-   flutter doctor
-   ```
-2. Restaure os pacotes do projeto:
-   ```bash
-   flutter pub get
-   ```
-3. Execute o aplicativo no seu dispositivo, emulador Android/iOS ou navegador:
-   ```bash
-   flutter run
-   ```
-
----
-
-## 🎥 Vídeo de Pitch e Demonstração do Projeto
-
-* **Link do Pitch / Demonstração:** `[Inserir link do YouTube / Vimeo conforme orientações]`
-* **Roteiro Sintético de Apresentação:**
-  1. **Problema (0:00 - 0:45):** O isolamento geográfico e as filas hospitalares geradas por falta de triagem primária.
-  2. **Solução SaúdePerto (0:45 - 1:30):** Demonstração da tela de Splash, Onboarding educativo, cadastro ágil de ficha e cálculo dinâmico de risco em tempo real.
-  3. **Fila Prioritária e Teleorientação (1:30 - 2:15):** Exibição da priorização por gravidade e da conduta médica que evita deslocamentos desnecessários.
-  4. **Resiliência e WebService (2:15 - 2:45):** Consumo da API REST com os 4 estados de carregamento e operação Offline-First.
-  5. **Conclusão & Impacto ODS (2:45 - 3:00):** Transformação social e democratização do acesso à saúde (ODS 3 e ODS 10).
